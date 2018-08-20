@@ -1,0 +1,20 @@
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Esse tempora perspiciatis quam rerum aliquam suscipit repudiandae minus officia 
+     veniam deserunt iusto cumque earum architecto, accusantium vel consequatur expedita 
+     est assumenda.
+</p>
+<button (click)="call()">click here</button>
+<h1>
+    ********************************************************
+</h1>
+<!-- {{info.features}} -->
+
+<ul *ngFor="let temp of info.features">
+    <li>
+        {{temp.name}}
+    </li>
+    <li>
+        <img [src]="temp.url" alt="">
+    </li>
+</ul>
